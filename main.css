@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: 89px auto;
+}
+/* header */
+.hwrapper {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    padding: 20px 90px;
+    width: calc(100vw - 180px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgba(78, 78, 78, 0.292);
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.logo__tit {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo__sub-tit {
+    color: #0069FF;
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+
+.login {
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.get__strated {
+    background-color: #0069FF;
+    border: 2px #0069FF solid;
+    width: 109px;
+    height: 41px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.gs-link {
+    color: #fff;
+}
+
+.login-link, .get__strated {
+    transition: all .2s linear;
+}
+
+.login-link:hover {
+    color: #0069FF;
+    text-decoration: underline;
+}
+
+.get__strated:hover {
+    background-color: #fff;
+}
+
+.get__strated:hover .gs-link {
+    color: #0069FF;
+}
+
+/* main */
+.main {
+    background-color: #FCFCFC;
+    
+}
+
+.mwrapper {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100vh - 180px);
+
+    background-image: url('img/main-background-removebackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.minner {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    font-size: 36px;
+    color: #1B4263;
+}
+
+.p1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #848484;
+    width: 450px;
+}
+
+.mtext {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mlink {
+    color: #0047FF;
+    transition: all .3s ease;
+}
+
+.mlink:hover {
+    text-decoration: underline;
+
+}
